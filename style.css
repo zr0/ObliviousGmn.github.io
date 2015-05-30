@@ -1,104 +1,39 @@
-body {
-	background-image: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-196575.jpg');
-	background-position: center center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+html{
+	background-color: #cccc11;
 }
 
-* {
-	font-family: 'Liberation Sans';
-	font-size: 90%;
-	font-weight: 200;
-}
-
-#container {
-	margin-top: 17%;
+#Daddy{
+	width: 60%;
 	margin-left: auto;
-	margin-right: auto;
-	width: 700px;
-	height: 400px;
+	margin-right: auto;	
 }
 
-#header {
-    -webkit-box-shadow: 0px 0px 3px 0px #000;
-       -moz-box-shadow: 0px 0px 3px 0px #000;
-            box-shadow: 0px 0px 3px 0px #000;
-
-	border: 1px solid rgba(0,0,0,0.5);
-	border-radius:2px;
-	background-color: rgba(0,0,0,0.8);
-	margin: 4px;
-	padding: 8px;
-}
-
-
-#links {
-	display: -webkit-box;
-  	   display: -moz-box;
-
-	width: 100%;
-}
-
-.linksbox {
-    -webkit-box-shadow: 0px 0px 3px 0px #000;
-       -moz-box-shadow: 0px 0px 3px 0px #000;
- 	    box-shadow: 0px 0px 3px 0px #000;
-
-    -webkit-box-flex: 1;
-       -moz-box-flex: 1;
-
-	margin: 4px;
-	padding: 8px;
-	background-color: rgba(0,0,0,0.8);
-	border: 1px solid rgba(0,0,0,0.5);
-	border-radius:2px;
-}
-
-.linksbox a {
-	display: block;
-	color: #6673BF;
-}
-
-h3 {
-	font-size: 1.4em;
-	margin-top: 0;
-	padding: 0;
-	margin-bottom: 2%;
-	color: rgba(255,255,255,0.50);
-}
-
-a {
-	font-size: 12px;
-	text-decoration: none;
-	margin-left: 2px;
-	margin-bottom: 0.5%;
-}
-
-a:link, a:visited {
-	color: rgba(255,255,255,0.3);
-} 
-
-a:hover { 
-	color: rgba(255,255,255,0.50);
-}
-
-
-form {
-	display: inline;
-}
-
-input {
-	display: inline;
-	margin-left: 4%;
+.Contain{
+    
+	-webkit-box-shadow: 0px 0px 4px 0px #000;
+       -moz-box-shadow: 0px 0px 4px 0px #000;
+            box-shadow: 0px 0px 4px 0px #000;
+ 
 	margin-top: 1%;
-	margin-bottom: 1%;
-	padding: 1px 1% 2px 1%;
-	border: none;
-	border-radius: 2px;
-	background: rgba(255,255,255,0.1);
-	color: #fff;
-	height: 4%;
-	width: 90%;
-	font-size: 1.4em;
+    margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #131314;
+	width: auto;
+}
+
+.Screenshot img{
+	max-width:100%; 
+	max-height:100%;
+	display: block;
+}
+
+table{
+background-color: #131314;
+width: 100%;
+}
+
+td{
+padding: 4px;
+height: 50%;
+color: white;
 }
