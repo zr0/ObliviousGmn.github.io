@@ -1,30 +1,28 @@
-html,body{
+html{
     background-color: #363636;
 	background: url("footer_lodyas.png") 0 0 fixed; 
 }
 
-#Daddy{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;	
+body{
+ max-width: 50%;
+ margin: 0 auto;
 }
 
 .Contain{    
-	-webkit-box-shadow: 0px 0px 2px 0px #000;
-       -moz-box-shadow: 0px 0px 2px 0px #000;
-            box-shadow: 0px 0px 2px 0px #000;
  
-	margin-top: 4%;
-	margin-bottom: 4%;
-	border-radius: 1px;
-	max-width:100%;
-	max-height:100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-width: auto;
+	max-height: auto;
 	background-color: #131314;
+	-webkit-box-shadow: 0px 0px 1px 0px black;
+       -moz-box-shadow: 0px 0px 1px 0px black;
+            box-shadow: 0px 0px 1px 0px black;
 }
 
 .Screenshot img{
-	max-width:100%; 
-	max-height:100%;
+	max-width: 100%; 
+	max-height: 100%;
 	display: block;
 }
 
@@ -33,161 +31,104 @@ width: 100.1%;
 }
 
 td{
-padding: 4px;
+padding: 1%;
 color: white;
 font-family: 'Damion', cursive;
 font-size: 1.2em;
 }
 
 /* Reborn */
-#Reborn{
+#Reborn, #RebornBorder {
 background-color: #131314;
-}
-
-#RebornBorder{
-border: solid #131314;
+border: solid 1px #131314;
 }
 
 /* Under Pressure */
-#UnderPressure{
+#UnderPressure, #UnderPressureBorder{
 background-color: #131314;
-}
-
-#UnderPressureBorder{
-border: solid #131314;
+border: solid 1px #131314;
 }
 
 /* Connects */
-#Connects{
+#Connects, #ConnectsBorder{
 background-color: #1B1B23;
-}
-
-#ConnectsBorder{
-border: solid #1B1B23;
+border: solid 1px #1B1B23;
 }
 
 /* Connects */
-#Brainless{
+#Brainless, #BrainlessBorder{
 background-color: #1C1C23;
-}
-
-#BrainlessBorder{
-border: solid #1C1C23;
+border: solid 1px #1C1C23;
 }
 
 /* YoursTruly */
-#Truly{
+#Truly, #TrulyBorder{
 background-color: #1C1C23;
+border: solid 1px #1C1C23;
 }
 
-#TrulyBorder{
-border: solid #1C1C23;
-}
-
-/* YoursTruly */
-#Truly{
-background-color: #1C1C23;
-}
-
-#TrulyBorder{
-border: solid #1C1C23;
-}
-
-/* YoursTruly */
-#Slacking{
+/* Slacking */
+#Slacking, #SlackingBorder{
 background-color: #191C23;
-}
-
-#SlackingBorder{
-border: solid #191C23;
+border: solid 1px #191C23;
 }
 
 /* Vibe */
-#Vibe{
+#Vibe, #VibeBorder{
 background-color: #202020;
-}
-
-#VibeBorder{
-border: solid #202020;
+border: solid 1px #202020;
 }
 
 /* Undeniable */
-#Undeniable {
+#Undeniable, #UndeniableBorder {
 background-color: #202020;
-}
-
-#UndeniableBorder{
-border: solid #202020;
+border: solid 1px #202020;
 }
 
 /* Seriously */
-#Seriously {
+#Seriously, #SeriouslyBorder {
 background-color: #222222;
-}
-
-#SeriouslyBorder{
-border: solid #222222;
+border: solid 1px #222222;
 }
 
 /* Indoor */
-#Indoors{
+#Indoors, #IndoorsBorder{
 background-color: #222222;
-}
-
-#IndoorsBorder{
-border: solid #222222;
+border: solid 1px #222222;
 }
 
 /* Endless */
-#Endless{
+#Endless, #EndlessBorder{
 background-color: #111111;
-}
-
-#EndlessBorder{
-border: solid #111111;
+border: solid 1px #111111;
 }
 
 /* Eyes */
-#Eyes{
+#Eyes, #EyesBorder{
 background-color: #111111;
-}
-
-#EyesBorder{
-border: solid #111111;
+border: solid 1px #111111;
 }
 
 /* Color */
-#Color{
+#Color, #ColorBorder{
 background-color: #150E0E;
-}
-
-#ColorBorder{
-border: solid #150E0E;
+border: solid 1px #150E0E;
 }
 
 /* Relax */
-#Relax{
+#Relax, #RelaxBorder{
 background-color: #150E0E;
-}
-
-#RelaxBorder{
-border: solid #150E0E;
+border: solid 1px #150E0E;
 }
 
 /* Back */
-#Back{
+#Back, #BackBorder{
 background-color: #150E0E;
-}
-
-#BackBorder{
-border: solid #150E0E;
+border: solid 1px #150E0E;
 }
 
 /* Step */
-#Step{
+#Step, #StepBorder{
 background-color: #150E0E;
-}
-
-#StepBorder{
-border: solid #150E0E;
+border: solid 1px #150E0E;
 }
