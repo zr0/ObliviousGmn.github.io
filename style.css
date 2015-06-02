@@ -1,6 +1,6 @@
 html{
     background-color: #363636;
-	background: url("footer_lodyas.png") 0 0 fixed; 
+	background: url("pattern_156.gif") 0 0 fixed; 
 }
 
 body{
@@ -15,9 +15,9 @@ body{
 	max-width: auto;
 	max-height: auto;
 	background-color: #131314;
-	-webkit-box-shadow: 0px 0px 1px 0px black;
-       -moz-box-shadow: 0px 0px 1px 0px black;
-            box-shadow: 0px 0px 1px 0px black;
+	-webkit-box-shadow: 0px 0px 2px 0px black;
+       -moz-box-shadow: 0px 0px 2px 0px black;
+            box-shadow: 0px 0px 2px 0px black;
 }
 
 .Screenshot img{
