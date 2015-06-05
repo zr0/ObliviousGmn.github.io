@@ -1,6 +1,6 @@
 html{
-    background-color: #363636;
-	background: url("pattern_156.gif") 0 0 fixed; 
+background-color: #363636;
+background: url("pattern_156.gif") 0 0 fixed; 
 }
 
 body{
@@ -9,25 +9,38 @@ body{
 }
 
 .Contain{    
- 
-	margin-top: 5%;
-	margin-bottom: 5%;
-	max-width: auto;
-	max-height: auto;
-	background-color: #131314;
-	-webkit-box-shadow: 0px 0px 2px 0px black;
-       -moz-box-shadow: 0px 0px 2px 0px black;
-            box-shadow: 0px 0px 2px 0px black;
+margin: 2%;
+max-width: auto;
+max-height: auto;
+background-color: #131314;
+-webkit-box-shadow: 0px 0px 2px 0px black;
+-moz-box-shadow: 0px 0px 2px 0px black;
+box-shadow: 0px 0px 2px 0px black;
 }
 
 .Screenshot img{
-	max-width: 100%; 
-	max-height: 100%;
-	display: block;
+max-width: 100%; 
+max-height: 100%;
+display: block;
 }
 
 table{
 width: 100.1%;
+}
+
+h1{
+margin: 0.5%;
+text-align: center;
+color: white;
+font-family: 'Damion', cursive;
+font-size: 4em;
+}
+
+p{
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+color: white;
+font-size: 12px;
 }
 
 td{
@@ -51,8 +64,8 @@ border: solid 1px #131314;
 
 /* Connects */
 #Connects, #ConnectsBorder{
-background-color: #1B1B23;
-border: solid 1px #1B1B23;
+background-color: #1C1C24;
+border: solid 1px #1C1C24;
 }
 
 /* Connects */
@@ -81,8 +94,8 @@ border: solid 1px #202020;
 
 /* Undeniable */
 #Undeniable, #UndeniableBorder {
-background-color: #202020;
-border: solid 1px #202020;
+background-color: #222222;
+border: solid 1px #222222;
 }
 
 /* Seriously */
@@ -117,14 +130,14 @@ border: solid 1px #150E0E;
 
 /* Relax */
 #Relax, #RelaxBorder{
-background-color: #150E0E;
-border: solid 1px #150E0E;
+background-color: #111111;
+border: solid 1px #111111;
 }
 
 /* Back */
 #Back, #BackBorder{
-background-color: #150E0E;
-border: solid 1px #150E0E;
+background-color: #111111;
+border: solid 1px #111111;
 }
 
 /* Step */
